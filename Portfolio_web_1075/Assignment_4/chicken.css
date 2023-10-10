@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 800px){
+    body{
+        background-color: rgb(251, 114, 2);
+    }
+}
+h1{
+    background-color: blueviolet;
+    text-align: center;
+    color: azure;
+    width: 1850px;
+}
+/*body{
+    background-color: rgb(188, 253, 231);
+}*/
+.container-1{
+    background-image: url(chicken-8.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 200px;
+    width: 1850px;
+}
+.head {
+    color:rgb(255, 255, 255);
+    /*box-sizing: border-box;*/
+    /*background-color: brown;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1850px;
+    justify-content: center;
+    background-color: rgb(117, 254, 210);
+    margin: 20px;
+    padding: 40px;
+}
+.food-detail-1{
+    background-color: aliceblue;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+}
+#chicken1{
+    width: 65%;
+}
+
+.food-detail-2{
+    background-color: aliceblue;
+    padding: 10px;
+    width: 600px;
+    height: 150px;
+    
+}
+.food-detail-3{
+    background-color: aliceblue;
+    padding: 10px;
+    width: 600px;
+    height: 150px;
+    
+}
+.food-detail-4{
+    background-color: aliceblue;
+    padding: 10px;
+    width: 600px;
+    height: 150px;
+    font-size: 50px;
+}
+.container-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+.food-con{
+    background-color:rgb(126, 214, 255);
+    border: 2px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+}
+.container-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.food-con-1{
+    background-color:rgb(72, 226, 121);
+    border: 2px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.link{
+    background-color: rgb(209, 41, 218);
+    color: rgb(250, 240, 255);
+    text-align: center;
+    padding: 25px;
+    width: 1850px;
+}
+
+
+
+
+       

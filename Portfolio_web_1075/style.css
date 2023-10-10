@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 1000px){
+  body{
+    background-color: bisque;
+  }
+
+}
+
+body{
+    text-align: center;
+}
+
+nav{
+    padding: 20px;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.manu li :hover{
+    color: rgb(42, 0, 252);
+    font-size: 25px;
+}
+
+.manu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.manu li{
+    margin : 0 1rem
+}
+
+.manu li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container{
+    text-align: center;
+    background-image: url(Picture/Wallpaper.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile{
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    box-shadow:0px 0px 4px rgba(0, 0, 0, 0.7);
+    
+}
+.profile:hover{
+    transform: scale(1.2);
+    transition: all 0.6s;
+}
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.name1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+.social ul{
+    font-size: 40px;
+    padding-top: 30px;
+
+}
+.social ul li{
+    display: inline;
+    padding: 1rem;
+    
+}
+.social ul li :hover{
+    font-size: 50px
+}
+
+/*hobby*/
+.hobby{
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: aliceblue;
+    border: solid  black;
+    border-top-width: 10px ;
+    border-left-width: 10px ;
+    text-align: center;
+    background-color: rgb(57, 179, 244); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*วาดรูป*/
+.blog{
+    background-color: rgb(243, 198, 251);
+    height: 300px;
+    margin: 3rem;
+    
+    
+}
+.hob-con{
+    display: flex;
+    
+}
+.hob-img img{
+    width: 400px;
+    border-radius: 50%;
+    padding: 2rem;;
+}
+.detail{
+    text-align: left;
+    font-size: 20px;
+    
+}
+.detail h3{
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: rgb(72, 72, 72);
+    color: aliceblue;
+}
+.detail p {
+    margin: 1rem;
+    padding: 2rem;
+
+
+}
+/*ทักษะ*/
+.skill{
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: aliceblue;
+    border: solid  black;
+    border-top-width: 10px ;
+    border-left-width: 10px ;
+    text-align: center;
+    background-color: rgb(241, 197, 114); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog1{
+    background-color: bisque;
+
+}
+.skill-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.skill-item{
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(254, 157, 78);
+    background-size: 60px;
+}
+.skill-item h4{
+    margin: 1rem;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background-color: rgb(255, 107, 81);
+    border-radius: 25px;
+}
+#pic3{
+    width: 200px;
+    border-radius: 50%;
+
+}
+.skill-titel{
+    margin: 2rem;
+}
+/*Attention*/
+
+.attention{
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: aliceblue;
+    border: solid  black;
+    border-top-width: 10px ;
+    border-left-width: 10px ;
+    text-align: center;
+    background-color: rgb(141, 253, 110); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pic4{
+    margin: 2rem;
+    width: 600px;
+}
+.atten p{
+    background-color: rgb(245, 202, 92);
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: left;
+    color: aliceblue;
+    border-radius: 25px;
+}
+/*footer*/
+.footer p{
+    background-color: rgb(255, 125, 73);
+    height: 50px;
+    margin-top: 2rem;
+    color: aliceblue;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+

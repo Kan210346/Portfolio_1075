@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: beige;
+    margin: 5%;
+}
+#topic1{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fd9c9c;
+}
+#comment1{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #8cf97b;
+}
+#comment2{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #6ef3f6;
+}
+button{
+    padding: 5px 10px;
+            background-color: #2e7ab8;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+}

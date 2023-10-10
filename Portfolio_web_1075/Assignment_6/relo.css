@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeb554;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  form {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #ffbdbd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  fieldset {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: #333;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background: #555;
+  }
+  
+  span {
+    color: red;
+  }
+  
+  /* Login */
+  #myLogin {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #8aa8f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #myLogin fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  #myLogin legend {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  #myLogin label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #myLogin input[type="text"],
+  #myLogin input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #myLogin input[type="submit"],
+  #myLogin input[type="reset"] {
+    background: #333;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #myLogin input[type="submit"]:hover,
+  #myLogin input[type="reset"]:hover {
+    background: #555;
+  }
